@@ -17,18 +17,13 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: maroon;
-  margin-left: 40px;
-}
-
 div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: calc(100vw - 40px);
-	max-width: calc(800px - 40px);
-	padding: 20px;
+	width: calc(100vw);
+	max-width: calc(800px);
+	padding: 0;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -54,25 +49,30 @@ div {
 	width: 300px;
 }
 
+
+.comic-page {
+	width: 100%;
+}
+
 </style>
 </head>
 <body>
 <div>
-	<img src="./comic-1.png" />
-	<img src="./comic-2.png" />
-	<img src="./comic-3.png" />
-	<img src="./comic-4.png" />
-	<img src="./comic-5.png" />
-	<img src="./comic-6.png" />
-	<img src="./comic-7.png" />
-	<img src="./comic-8.png" />
-	<img src="./comic-9.png" />
+	<img class="comic-page" src="./comic-1.png" />
+	<img class="comic-page" src="./comic-2.png" />
+	<img class="comic-page" src="./comic-3.png" />
+	<img class="comic-page" src="./comic-4.png" />
+	<img class="comic-page" src="./comic-5.png" />
+	<img class="comic-page" src="./comic-6.png" />
+	<img class="comic-page" src="./comic-7.png" />
+	<img class="comic-page" src="./comic-8.png" />
+	<img class="comic-page" src="./comic-9.png" />
 </div>
 <div>
 	<p>Thanks for reading! If you found this comic amusing or relatable, please consider making a donation to my Movember fundraiser.</p>
 	<p>It can be as small as $5 or $10. Every dollar helps! 💗</p>
 	<a class="donate-button" href="https://au.movember.com/donate/details?memberId=14264736">Donate</a>
-	<p>And for more information about the work Movember does to improve the lives of men and boys, visit:</p>
+	<p>And for more information about the work Movember does to improve the lives of men and boys,   visit:</p>
 	<a href="https://movember.com/">
 		<img class="mocom" src="./Movember_Com_Black.png" />
 	</a>
